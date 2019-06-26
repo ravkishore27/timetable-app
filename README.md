@@ -1,7 +1,7 @@
 # timetable-app
 An app for Timetable
 
-#Install nodejs on AWS EC2 server:
+# Install nodejs on AWS EC2 server:
 The following procedure helps you install Node.js on an Amazon Linux instance.
 
 To set up Node.js on your Linux instance
