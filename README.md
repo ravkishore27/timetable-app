@@ -25,3 +25,19 @@ Test that Node.js is installed and running correctly by typing the following at 
 node -e "console.log('Running Node.js ' + process.version)"
 This should display the following message that confirms the installed version of Node.js running.
 Running Node.js v4.4.5
+
+# Install npx
+sudo npm install npx
+
+# Create timetable-app
+npx create-react-app timetable-app
+cd timetable-app
+npm start
+
+# Install Git
+sudo yum install git
+
+# Configure git repository on your AWS machine
+
+
+
