@@ -30,23 +30,22 @@ Running Node.js v4.4.5
 sudo npm install npx
 
 # Create timetable-app
-npx create-react-app timetable-app
-cd timetable-app
-npm start
+npx create-react-app timetable-app\
+cd timetable-app\
+npm start\
 
 # Install Git
 sudo yum install git
 
 # Configure git repository on your AWS machine
-Setup ssh keys in your local machine. Import the public key to Git setting > SSH keys.
-git config --global user.email "username@gmail.com"
-git config --global user.name "name"
-git init      (in the app folder)
-git remote add origin git@github.com:ravkishore27/timetable-app.git
-git pull origin master
-git add .
-git commit -m "message"
-git push origin master
-
+Setup ssh keys in your local machine. Import the public key to Git setting > SSH keys.\
+git config --global user.email "username@gmail.com"\
+git config --global user.name "name"\
+git init      (in the app folder)\
+git remote add origin git@github.com:ravkishore27/timetable-app.git\
+git pull origin master\
+git add .\
+git commit -m "message"\
+git push origin master\
 
 
