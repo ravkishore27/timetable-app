@@ -32,7 +32,7 @@ sudo npm install npx
 # Create timetable-app
 npx create-react-app timetable-app\
 cd timetable-app\
-npm start\
+npm start
 
 # Install Git
 sudo yum install git
@@ -47,5 +47,13 @@ git pull origin master\
 git add .\
 git commit -m "message"\
 git push origin master\
+git clone <current repository> (if required).
+
+
+# AWS Amplify
+- Login into AWS console.
+- Navigate to AWS Amplify
+- Deploy the timetable-app using github as Repository Service.
+- Remember that github (remote) app when updated with commits, Amplify will build, deploy and verify.
 
 
