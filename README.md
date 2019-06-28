@@ -13,12 +13,15 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 We will use nvm to install Node.js because nvm can install multiple versions of Node.js and allow you to switch between them.
 
 Activate nvm by typing the following at the command line.
-. ~/.nvm/nvm.sh
+. ~/.nvm/nvm.sh or\
+sudo bash nvm.sh\
 or
 Just logout of the terminal and relogin, nvm will be loaded.
 
 Use nvm to install the latest version of Node.js you intend to use by typing the following at the command line.
-nvm install node
+nvm install node\
+or
+nvm install 10.16.0\
 Installing Node.js also installs the Node Package Manager (npm) so you can install additional modules as needed.
 
 Test that Node.js is installed and running correctly by typing the following at the command line.
