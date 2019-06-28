@@ -1,5 +1,13 @@
 # timetable-app
 An app for Timetable
+```
+git clone <link>
+cd timetable-app
+npm install
+npm start &\
+or\
+npm run build &
+```
 
 # Install nodejs on AWS EC2 server:
 The following procedure helps you install Node.js on an Amazon Linux instance.
